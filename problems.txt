@@ -1,0 +1,69 @@
+Problem 1
+=========
+
+Display a list of all users and the number of bank accounts they currently own.
+
+ userid | no_accounts 
+--------+-------------
+    140 |           1
+    130 |           1
+    110 |           2
+    120 |           0
+    100 |           1
+    150 |           0
+(6 rows)
+
+
+Problem 2
+=========
+
+Display a list of users who currently own more than one bank account.
+
+ userid 
+--------
+    110
+(1 row)
+
+
+Problem 3
+=========
+
+Display a list of users who have received money within the last week.
+
+ userid 
+--------
+    100
+    130
+(2 rows)
+
+
+Problem 4
+=========
+
+Display a list of users who have never made a deposit of more than 40 money.
+
+ userid 
+--------
+    120
+    130
+    150
+(3 rows)
+
+
+Problem 5
+========
+
+Display a list of all users with the amount and datestamp of the last deposit
+they have made (or NULL if they have never made a deposit).
+
+ userid | amount |           datestamp           
+--------+--------+-------------------------------
+    100 |   50.0 | 2013-04-03 14:54:08.840197+02
+    110 |   50.0 | 2013-04-01 14:54:08.840197+02
+    120 |        | 
+    130 |   20.0 | 2013-04-04 07:54:08.840197+02
+    140 |   60.0 | 2013-03-21 14:54:08.840197+01
+    150 |        | 
+(6 rows)
+
+(the datestamps may, of course, be different)
